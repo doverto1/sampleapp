@@ -16,9 +16,9 @@ on:
         required: false
 
 jobs:
+
   deploy_job:
     runs-on: windows-latest
-    needs: build-job
       
     steps:
       
